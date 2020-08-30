@@ -1,0 +1,111 @@
+body {
+   position: relative;
+   padding: 20px; 
+   font-family: sans-serif;
+   background: url("image/instagram-hex-colors-css-gradient-brand-gradients-color-gradient-png-hd-1920_1080.png")  ;
+   width: auto;
+   height:auto;
+   display:flex;
+   justify-content: center;
+   background-attachment:fixed;
+}
+
+ul{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 90%;
+    
+}
+
+li{
+  border: 1px solid rgba(85, 67, 67, 0.5);
+}
+
+.rectangle1{
+  width: 20px;
+  height: 20px;
+  background: #515BD4;
+  
+}
+
+.rectangle2{
+  width: 20px;
+  height: 20px;
+  background: #8134AF;
+}
+
+.rectangle3{
+  width: 20px;
+  height: 20px;
+  background: #DD2A7B;
+}
+
+.rectangle4{
+  width: 20px;
+  height: 20px;
+  background: #FEDA77;
+}
+
+.rectangle5{
+  width: 20px;
+  height: 20px;
+  background:  #F58529;
+}
+
+
+.formulaire{
+  position: absolute;
+  display: flex;
+  flex-direction : column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 700px;
+  font-size: .6em;
+  border: 1px solid rgba(85, 67, 67, 0.5);
+  width: 500px;
+  height: 500px;
+  border-radius: 50px;
+  box-shadow:  10px 10px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 170px;
+  border-radius: 80px;
+  backdrop-filter: blur(10px);
+}
+.Title{
+margin-bottom: 40px;
+}
+
+.Title{
+  text-shadow: #8134AF 1px 1px, #8134AF -1px 1px, #8134AF -1px -1px, #8134AF 1px -1px;
+  font-size: 2em;
+  
+}
+
+textarea{
+   resize:none;
+}
+
+textarea:focus{
+outline: none;      /* Empeche la bordure native du formulaire*/
+
+}
+
+#bouton{
+  margin-top: 40px;
+  border-radius: 80px;
+  background: linear-gradient(145deg, #db4d96, #b9417e);
+  box-shadow:  6px 6px 12px #ac3c76, 
+               -6px -6px 12px #ee54a2;
+  outline: none;
+  font-family: 'Squada One', cursive;
+  font-size: 2.5em;
+ 
+
+}
+
+#bouton:active{
+  color: rgba(0, 0, 0, 0.7);
+}
+
