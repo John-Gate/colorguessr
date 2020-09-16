@@ -1,8 +1,9 @@
+
 body {
    position: relative;
    padding: 20px; 
    font-family: sans-serif;
-   background: url("image/instagram-hex-colors-css-gradient-brand-gradients-color-gradient-png-hd-1920_1080.png")  ;
+   background: url("dist/image/colors.png")  ;
    width: auto;
    height:auto;
    display:flex;
@@ -108,4 +109,3 @@ outline: none;      /* Empeche la bordure native du formulaire*/
 #bouton:active{
   color: rgba(0, 0, 0, 0.7);
 }
-
