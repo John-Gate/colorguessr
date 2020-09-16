@@ -3,7 +3,7 @@ body {
    position: relative;
    padding: 20px; 
    font-family: sans-serif;
-   background: url("dist/image/colors.png")  ;
+   background: url("colors.png")  ;
    width: auto;
    height:auto;
    display:flex;
